@@ -19,7 +19,7 @@ const ShowStudent = () => {
       <h2>Student List</h2>
 
       {students.map((student) => (
-      <Card style={{ width: '18rem',  border:'2px solid grey', marginLeft:'20px'}}>
+      <Card style={{ width: '18rem',  border:'2px solid grey', marginLeft:'20px', marginBottom:'10px'}}>
       <Card.Body>
         <Card.Title><b>NAME :</b> {student.studentname}</Card.Title>
         <Card.Text>
